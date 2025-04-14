@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Optimize</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('Company_background.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        #projects {
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .project {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 80%;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 戻るボタンのデザイン */
+        .back-button {
+            background-color: #4db8ff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            background-color: #00ccff;
+        }
+    </style>
+</head>
+<body>
+    <section id="projects">
+        <h2>Marketing Optimize</h2>
+        <div class="project">
+            <h3>Marketing Optimize の詳細</h3>
+            <p>現在、プロジェクトの進行中です。</p>
+        <table>
+            <tr>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+    <!-- 戻るボタン -->
+    <button class="back-button" onclick="goBack()">&#8592; Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

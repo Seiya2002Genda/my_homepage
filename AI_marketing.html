@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIマーケティングソリューション</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Marketing Solution</h1>
+        <p>最先端のAI技術で、ビジネスの成長を加速させます</p>
+    </header>
+
+<!--    <section>-->
+<!--&lt;!&ndash;        <ul>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li><a href="#about"></a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li><a href="#services">サービス</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;                <li><a href="#contact">お問い合わせ</a></li>&ndash;&gt;-->
+<!--&lt;!&ndash;        </ul>&ndash;&gt;-->
+<!--&lt;!&ndash;        <table>&ndash;&gt;-->
+<!--&lt;!&ndash;            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                <td><strong>私たちについて</strong></td>&ndash;&gt;-->
+<!--&lt;!&ndash;                <td><a href="#about"></a></td>&ndash;&gt;-->
+<!--&lt;!&ndash;            </tr>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                <td><strong>サービス</strong></td>&ndash;&gt;-->
+<!--&lt;!&ndash;                <td><a href="#services"></a></td>&ndash;&gt;-->
+<!--&lt;!&ndash;            </tr>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                <td><strong>お問い合わせ</strong></td>&ndash;&gt;-->
+<!--&lt;!&ndash;                <td><a href="#contact"></a></td>&ndash;&gt;-->
+<!--&lt;!&ndash;            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;        </table>&ndash;&gt;-->
+<!--        <table style="margin: auto; text-align: center;">-->
+<!--            <tr>-->
+<!--                <td><strong>お問い合わせ</strong></td>-->
+<!--                <td><a href="#contact">問い合わせる</a></td>-->
+<!--            </tr>-->
+<!--        </table>-->
+
+<!--    </section>-->
+
+    <section id="about">
+        <h2>私たちについて</h2>
+        <p>当社はAIを駆使したマーケティング戦略を提供し、企業の成長を支援しています。</p>
+    </section>
+
+    <section id="services">
+<!--        <h2>サービス</h2>-->
+<!--        <ul>-->
+<!--            <li>データドリブンマーケティング</li>-->
+<!--            <li>AIチャットボット開発</li>-->
+<!--            <li>ターゲット分析と最適化</li>-->
+<!--        </ul>-->
+        <table>
+            <tr>
+                <td><strong><span style="white-space: nowrap;">Service 1:</span></strong></td>
+                <td><span>データドリブンマーケティング Data Driven Marketing</span></td>
+                <td><a href="data_driven_marketing.html"><span style="white-space: nowrap;">View More Details</span></a></td>
+            </tr>
+
+            <tr>
+                <td><strong><span style="white-space: nowrap;">Service 2:</span></strong></td>
+                <td><span>AIチャットボット開発 AI ChatBot Development</span></td>
+                <td><a href="ai_chatbot_development.html"><span style="white-space: nowrap;">View More Details</span></a></td>
+            </tr>
+
+            <tr>
+                <td><strong><span style="white-space: nowrap;">Service 3:</span></strong></td>
+                <td><span> Target Analytics and Optimize</span></td>
+                <td><a href="marketing_optimize.html"><span style="white-space: nowrap;">View More Details</span></a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form action="https://example.com/contact" method="POST">
+            <label for="name">お名前:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="request"><strong>お問い合わせ内容:</strong></label>
+            <textarea id="request" name="request" rows="5" required></textarea>
+
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+    <style>
+        #about {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        table {
+            width: 50%;
+            max-width: 600px;
+            margin: auto;
+            border-spacing: 10px;
+            color: white;
+        }
+
+        td {
+            text-align: left;
+            padding: 5px;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            text-align: right;
+            padding-right: 20px;
+        }
+    </style>
+
+    <footer>
+        <p>&copy; 2025 AI Marketing Solution</p>
+    </footer>
+
+    <script src="company_design.js"></script>
+
+    <!-- 戻るボタン -->
+    <button class="back-button" onclick="goBack()">&#8592; Back</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+</html>
